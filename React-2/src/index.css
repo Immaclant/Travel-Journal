@@ -1,0 +1,112 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff5a5f;
+  padding: 24px 0;
+  box-shadow: none;
+  border-radius: 16px 16px 0 0;
+  margin: 0 auto;
+  max-width: none;
+  width: 100%;
+  min-width: 340px;
+}
+
+.header-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 8px;
+  object-fit: contain;
+}
+
+.header-title {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #fff;
+  margin: 0;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  text-shadow: none;
+  text-align: center;
+  text-transform: none;
+}
+
+.body-img {
+  width: 120px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  margin-right: 24px;
+}
+
+.body-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.body-location-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 12px;
+}
+
+.body-country {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #d80000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 8px;
+}
+
+.body-maps-link {
+  font-size: 0.85rem;
+  color: #555;
+  text-decoration: underline;
+  opacity: 0.8;
+  transition: color 0.18s;
+}
+.body-maps-link:hover {
+  color: #ff5a5f;
+}
+
+.body-title {
+  font-size: 1.4rem;
+  margin: 0 0 6px 0;
+  font-weight: 700;
+  color: #222;
+}
+
+.body-dates {
+  font-size: 0.96rem;
+  color: #4a4a4a;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.body-description {
+  font-size: 0.98rem;
+  color: #222;
+  line-height: 1.45;
+  margin: 0;
+  max-width: 420px;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow:
+    0 2px 12px rgba(0, 0, 0, 0.04),
+    0 1.5px 6px rgba(0, 0, 0, 0.04);
+  padding: 18px 22px;
+  margin: 28px auto 0 auto;
+  max-width: 640px;
+  min-width: 340px;
+  gap: 14px;
+}
